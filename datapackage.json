@@ -1,0 +1,193 @@
+{
+  "name": "incendios-dataset",
+  "title": "Incêndios em Portugal, 2001-2012",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "Incêndios.pt",
+      "web": "http://incendios.pt"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ifdata_detailed-08",
+      "path": "data/ifdata_detailed-08.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 97600524,
+      "schema": {
+        "fields": [
+          {
+            "name": "x",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "y",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "ano",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "codigo",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "distrito",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "concelho",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "freguesia",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "local",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "aaid_distrito",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "aaid_municipio",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "aaid_freguesia",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "data_alerta",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "hora_alerta",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "data_extincao",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "hora_extincao",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "data_1interv",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "hora_1interv",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "aa_povoamento",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "aa_mato",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "aa_agricola",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "aa_espaco_florestal",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "aa_total",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "reacendimento",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "queimada",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "falso_alarme",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "fogacho",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "incendio",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "agricola",
+            "type": "boolean",
+            "description": ""
+          },
+          {
+            "name": "causa",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "tipocausa",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "causa_name",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "causa_decription",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Incendios Dataset",
+  "repository": "https://github.com/transparenciahackday/incendios-dataset.git"
+}
